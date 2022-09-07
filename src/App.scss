@@ -1,0 +1,41 @@
+@import "~bootstrap/scss/bootstrap";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+$mainColor: #313237;
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+  background: #fff;
+  color: $mainColor;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+nav,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.items {
+  margin: 0 0 40px;
+
+  color: #89939a;
+};

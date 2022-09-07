@@ -1,0 +1,63 @@
+.card-store {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  gap: 20px;
+  padding: 31px 40px 31px 27px;
+  border: 1px solid #e2e6e9;
+
+  &__price {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 140%;
+
+    margin-left: 30px;
+  }
+
+  &__img {
+    max-width: 66px;
+    max-height: 66px;
+  }
+
+  &__delete {
+    width: 20px;
+    height: 20px;
+
+    padding: 10px;
+
+    background-image: url("../../images/x.svg");
+
+    cursor: pointer;
+  }
+
+  &__btn {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #b4bdc4;
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid #313237;
+    }
+
+    background-image: url("../../images/dash.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__btn-plus {
+    background-image: url("../../images/plus.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &-right,
+  &-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 13px;
+  }
+}

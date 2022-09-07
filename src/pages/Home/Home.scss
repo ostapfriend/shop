@@ -1,0 +1,64 @@
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  letter-spacing: -0.01em;
+  color: #313237;
+
+  margin-bottom: 24px;
+}
+
+.subtitle {
+  text-decoration: none;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #89939a;
+}
+
+.hot-prices,
+.new-models,
+.category {
+  margin-top: 80px;
+}
+
+.new-models {
+  margin-bottom: 80px;
+}
+
+.category {
+  &__card {
+    display: flex;
+    flex-direction: column;
+
+    text-decoration: none;
+
+    &:hover {
+      .subtitle {
+        color: #313237;
+      }
+    }
+  }
+
+  &__card > p {
+    color: #89939a;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+  }
+
+  &__img {
+    width: 368px;
+    max-height: 368px;
+
+    &-tablets {
+      background-color:gray;
+    }
+  }
+}

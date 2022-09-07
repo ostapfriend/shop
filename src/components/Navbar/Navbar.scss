@@ -1,0 +1,172 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+
+  box-shadow: 0px 1px 0px #e2e6e9;
+  background-color: white;
+
+  &__container-link {
+    display: flex;
+    flex-direction: row;
+
+    padding: 0 24px;
+  }
+
+  &__item {
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    transition: all 0.5s;
+
+    :hover {
+      color: #313237;
+      padding-bottom: 23px;
+      border-bottom: 3px solid #313237;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+
+    &-img {
+      margin-right: 64px;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: row;
+
+    gap: 64px;
+    height: 100%;
+
+    list-style: none;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  &__link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 11px;
+    text-decoration: none;
+    color: #89939a;
+  }
+
+  &__icon-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    list-style: none;
+  }
+
+  &__container-icon {
+    height: 64px;
+  }
+
+  &__icon-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 64px;
+    height: 64px;
+    box-shadow: -1px 0px 0px #e2e6e9;
+
+    &:hover {
+      color: #313237;
+      padding-bottom: 19px 0;
+      border-bottom: 3px solid #313237;
+    }
+  }
+
+  &__icon-item-select {
+    padding: 0 10px;
+
+    width: 250px;
+  }
+
+  &__icon-link {
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 32px;
+    height: 32px;
+
+    background-image: url("../../images/favourites.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+
+    &-store {
+      background-image: url("../../images/cart.svg");
+    }
+
+    &-store-fill {
+      background-image: url("../../images/cart-fill.svg");
+    }
+
+    &-favourites {
+      background-image: url("../../images/favouritesFill.svg");
+    }
+  }
+}
+
+/* TABLETS-MINI*/
+@media screen and (max-width: 768px) {
+  .nav {
+    position: relative;
+    flex-direction: column;
+
+    &__icon-list {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    &__container-link {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      gap: 10px;
+    }
+
+    &__logo-img {
+      margin: 0;
+    }
+
+    &__link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__container-icon {
+      margin-top: 30px;
+    }
+
+    &__icon-list {
+      flex-direction: row;
+    }
+  }
+}

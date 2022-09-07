@@ -1,0 +1,42 @@
+.tablets {
+  margin: 100px 0 50px;
+
+  &__title {
+    margin-bottom: 0;
+  }
+
+  &__items {
+    margin-bottom: 40px;
+
+    color: #89939a;
+  };
+
+  &__list {
+    margin-top: 24px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 13px;
+  }
+}
+
+.form-select-custom {
+  border: 1px solid #b4bdc4;
+  border-radius: 0%;
+  height: 40px;
+  max-width: 176px;
+}
+
+@media screen and (max-width: 1440px) {
+  .tablets__container-main {
+    max-width: 500px;
+  }
+
+  .tablets__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,26 @@
+.path {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 14px;
+
+  margin-bottom: 40px;
+
+  &__house {
+    width: 16px;
+    height: 16px;
+    background-image: url("../../images/housedoor.svg");
+
+    &:hover {
+      background-image: url("../../images/housedoorfill.svg");
+    }
+  }
+
+  &__location {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #89939a;
+  }
+}
