@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/shop/static/css/main.f51cc515.css",
+    "main.js": "/shop/static/js/main.d649f638.js",
+    "static/media/imageSlider3.jpg": "/shop/static/media/imageSlider3.c7e190c003bea375f20c.jpg",
+    "static/media/imageSlider2.jpg": "/shop/static/media/imageSlider2.b02626a476182ac809b7.jpg",
+    "static/media/ipad.png": "/shop/static/media/ipad.f51202fc26f8ae1f3b12.png",
+    "static/media/coverPhone.jpg": "/shop/static/media/coverPhone.c58e6805ba3eb03dfd34.jpg",
+    "static/media/imageSlider.jpg": "/shop/static/media/imageSlider.a34f00c7ee7fa9726949.jpg",
+    "static/media/iphone14.jpg": "/shop/static/media/iphone14.8793c7f8460efceab8ca.jpg",
+    "static/media/iphone10xs.jpg": "/shop/static/media/iphone10xs.834ba11b0b6cb61f4f96.jpg",
+    "static/media/slick.svg": "/shop/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/shop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/shop/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/favourites.svg": "/shop/static/media/favourites.674797e4915fe97a9594.svg",
+    "static/media/logo.svg": "/shop/static/media/logo.a03aa6bac6decd6fde58829b4ddc63a1.svg",
+    "static/media/slick.woff": "/shop/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/shop/index.html",
+    "static/media/arrowright.svg": "/shop/static/media/arrowright.2a072ff1bf1fd396b30e9dec3a108dcb.svg",
+    "static/media/arrowtopActive.svg": "/shop/static/media/arrowtopActive.146fa8bacabfff64ca8e.svg",
+    "static/media/arrowleft.svg": "/shop/static/media/arrowleft.d51ddc975aaaa3964a8eb3733734e27a.svg",
+    "static/media/arrowtop.svg": "/shop/static/media/arrowtop.2c68b90b84e5c730a8f9.svg",
+    "static/media/cart.svg": "/shop/static/media/cart.05dfd14f0943edf68c9a.svg",
+    "static/media/housedoor.svg": "/shop/static/media/housedoor.0365007e1c1202c2d4bc.svg",
+    "static/media/cart-fill.svg": "/shop/static/media/cart-fill.f2fa8fe0b99e93701ccd.svg",
+    "static/media/housedoorfill.svg": "/shop/static/media/housedoorfill.6fccc45c392173e20f63.svg",
+    "static/media/x.svg": "/shop/static/media/x.419e56700a3ba6838b1c.svg",
+    "static/media/plus.svg": "/shop/static/media/plus.84478f1596d8d93aef24.svg",
+    "static/media/favouritesFill.svg": "/shop/static/media/favouritesFill.25643354c468d5e5e4ad.svg",
+    "static/media/dash.svg": "/shop/static/media/dash.05e15557607e2536efbf.svg",
+    "main.f51cc515.css.map": "/shop/static/css/main.f51cc515.css.map",
+    "main.d649f638.js.map": "/shop/static/js/main.d649f638.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f51cc515.css",
+    "static/js/main.d649f638.js"
+  ]
+}
