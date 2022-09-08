@@ -30,7 +30,7 @@ export const Navbar: React.FC<Props> = ({ favouritesDevicesLength, storeLength }
           </Link>
           <ul className="nav__menu">
             <li className="nav__item">
-              <Link to="/" className="nav__link">
+              <Link to="/shop" className="nav__link">
                 HOME
               </Link>
             </li>

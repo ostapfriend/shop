@@ -6,18 +6,17 @@ import "./App.scss";
 import { Product } from "./types/Product";
 
 /* PAGES */
-import { Tablets } from './pages/Tablets';
-import { Store } from './pages/Store';
-import { Phones } from './pages/Phones';
-import { Home } from './pages/Home';
-import { Favourites } from './pages/Favourites';
-import { Accessories } from './pages/Accessories';
+import { Tablets } from "./pages/Tablets";
+import { Store } from "./pages/Store";
+import { Phones } from "./pages/Phones";
+import { Home } from "./pages/Home";
+import { Favourites } from "./pages/Favourites";
+import { Accessories } from "./pages/Accessories";
 
 /* COMPONENTS*/
-import { PageNotFound } from './components/PageNotFound';
-import { Navbar } from './components/Navbar';
-import { Footer } from './components/Footer';
-
+import { PageNotFound } from "./components/PageNotFound";
+import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
 
 const useLocalStorage = () => {
   const favouritesDevicesFromLocaleStorage =
@@ -108,7 +107,7 @@ function App() {
       />
       <Routes>
         <Route
-          path="/"
+          path="/shop"
           element={
             <Home
               addFavouritesDevices={addFavouritesDevices}
@@ -140,7 +139,7 @@ function App() {
             />
           }
         />
-        <Route path="/accessories" element={<Accessories />}/>
+        <Route path="/accessories" element={<Accessories />} />
         <Route
           path="/favourites"
           element={
@@ -164,7 +163,7 @@ function App() {
             />
           }
         />
-        <Route path="*" element={<PageNotFound />}/>
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>
